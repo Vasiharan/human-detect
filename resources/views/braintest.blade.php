@@ -3,6 +3,7 @@
 <head>
     <title>brain.js</title>
     <script src="https://cdn.rawgit.com/BrainJS/brain.js/master/browser.js"></script>
+    <script src="/js/app.js"></script>
     <script>
         function DrawableCanvas(el) {
             const px = 10
