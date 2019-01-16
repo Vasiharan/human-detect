@@ -3,7 +3,6 @@
 <head>
     <title>brain.js</title>
     <script src="https://cdn.rawgit.com/BrainJS/brain.js/master/browser.js"></script>
-    <script src="/js/app.js"></script>
     <script>
         function DrawableCanvas(el) {
             const px = 10
@@ -147,6 +146,11 @@
     </script>
 </head>
 <body>
+    <div class="app" id="app">
+
+        <example-component></example-component>
+    
+    </div>
     <table align="center" cellspacing="0" cellpadding="1" border="0">
         <caption>
             <h3>Step 1: Prepare data</h3>
@@ -247,5 +251,6 @@
             gc.reset()
         })
     </script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
